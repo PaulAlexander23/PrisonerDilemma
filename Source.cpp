@@ -6,10 +6,10 @@ using namespace std;
 class prisoner
 {
 public:
-	prisoner(function<int(int, int)> func)
+	prisoner(function <int(int, int)> func)
 	{
 		choice = func;
-	}
+	};
 	~prisoner();
 	function<int(int, int)> choice;
 	int	score;
